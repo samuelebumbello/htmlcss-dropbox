@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(243, 236, 236);
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
