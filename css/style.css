@@ -18,6 +18,11 @@ header{
     font-size: 17px;
 }
 
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1{
     font-size: 80px;
     line-height: 108px;
@@ -134,7 +139,7 @@ padding-top: 20px;
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1200px;
-    height: 1600px;
+    height: 1700px;
 }
 
 .button-main{
@@ -184,7 +189,8 @@ padding-top: 20px;
 .col-down{
     height: 250px ;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.2);;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 130px;
 }
 /* ----- CONTENUTO COLONNE CENTRALI----- */
 .interno-colonna{
@@ -287,7 +293,7 @@ ul li{
     list-style: none;
 }
 
-ul li:first-child{
+.container-col ul li:first-child{
     padding-top: 30px;
     font-weight: bold;
     font-size: 17px;
@@ -338,4 +344,73 @@ ul li:first-child{
 
 .support-coldown{
     margin: 30px 30px 0;
+}
+
+/* ----- DESCRIPTION MAIN CENTER ----- */
+.container-center{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 500px;
+    margin-bottom: 120px;
+}
+
+.text-center{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.text-center h3{
+    font-size: 30px
+}
+
+.text-center p{
+    line-height: 30px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.text-center span{
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.text-center span:hover{
+    background-color: #0061FF;
+    color: white;
+    
+}
+/* ----- MAIN CENTER CARD ---- */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.description-dropbox{
+    width: calc(90% / 3);
+    padding-bottom: 130px;
+}
+
+.description-dropbox h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.description-dropbox p{
+    line-height: 24px;
+}
+
+.description-dropbox a{
+    color: black;
+}
+
+.description-dropbox img{
+    width: 100%;
+    cursor: pointer;
 }
