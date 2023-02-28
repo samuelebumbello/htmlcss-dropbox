@@ -23,9 +23,11 @@ h1{
     line-height: 108px;
 }
 
+h2{
+    font-size: 45px;
+}
+
 .container-jumbo{
-    position: relative;
-    width: 90%;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -69,6 +71,7 @@ li:hover{
     background-color: #B4D0E7;
     height: 770px;
     padding-top: 120px;
+    padding-left: 100px;
 }
 
 .text-jumbo{
@@ -81,9 +84,9 @@ li:hover{
 
 .container-jumbo img{
     position: absolute;
-    top: 250px;
-    left: 455px;
-    width: 62%;
+    top: 370px;
+    left: 755px;
+    width: 45%;
     display: inline-block;
 }
 
@@ -107,4 +110,148 @@ padding-top: 20px;
 .icon-jumbo{
     font-size: 40px;
     padding-top: 25px;
+}  
+
+.fa-solid.fa-arrow-down:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* ----- MAIN ----- */
+.container-main{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 190px;
+    margin-top: 250px;
+}
+
+.container-col{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 1300px;
+}
+
+.button-main{
+    line-height: 150px;
+}
+
+.button-main .fa-solid.fa-circle-dot{
+    color: #0061FF;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.button-main .fa-regular.fa-circle-dot{
+    color: black;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.fa-regular.fa-circle-dot:hover{
+    color: #0061FF;
+}
+
+.button-main .billing{
+    padding-right: 25px;
+}
+
+/* ----- COLONNE ----- */
+.container-col .col-left{
+    margin-right: 90px;
+    height: 1000px;
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container-col .col-central{
+    margin-right: 90px;
+    height: 1000px;
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container-col .col-right{
+    height: 1000px;
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* ----- CONTENUTO COLONNE ----- */
+.interno-colonna{
+    margin: 30px 30px 30px 30px;
+}
+
+.h3-col{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+
+.col-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:55px;
+    width: 340px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.fa-regular.fa-user{
+    padding-right: 5px;
+}
+
+.fa-regular.fa-building{
+    padding-right: 5px;
+}
+
+.prezzo{
+    font-weight: bold; 
+}
+
+.month-col{
+    padding-top: 10px;
+    padding-bottom: 45px;
+    color: rgba(0,0,0,0.5);
+}
+
+.user-col{
+    padding-bottom: 30px;
+}
+.user-col i{
+    font-size: 14px
+}
+
+.TB-col{
+    padding-bottom: 30px;
+}
+.fa-regular.fa-folder{
+    padding-right: 5px;
+}
+.fa-regular.fa-face-smile{
+    padding-right: 5px;
+}
+
+.function-col{
+    padding-bottom: 60px;
+}
+.fa-solid.fa-pencil{
+    padding-right: 5px;
+}
+
+.button-col{
+    text-align: center;
+    color: white;
+    background-color: #0061FF;
+    padding: 12px;
+    cursor: pointer;
+}
+.button-col:hover{
+    background-color: blue;
+}
+
+.link-col{
+    padding-top: 30px;
+}
+.link-col a{
+    color: #0061FF;
 }
