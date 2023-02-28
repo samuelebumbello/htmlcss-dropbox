@@ -41,7 +41,11 @@ nav ul li{
     cursor: pointer;
 }
 
-li:hover{
+nav ul img{
+    vertical-align: middle;
+}
+
+nav ul li:hover{
     background-color: gainsboro;
 }
 
@@ -78,7 +82,7 @@ li:hover{
     padding-top: 34px;
     padding-bottom: 45px;
     width: 370px;
-    
+
 
 }
 
@@ -110,7 +114,7 @@ padding-top: 20px;
 .icon-jumbo{
     font-size: 40px;
     padding-top: 25px;
-}  
+}
 
 .fa-solid.fa-arrow-down:hover{
     color: white;
@@ -127,13 +131,14 @@ padding-top: 20px;
 
 .container-col{
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1200px;
-    height: 1300px;
+    height: 1600px;
 }
 
 .button-main{
-    line-height: 150px;
+    line-height: 160px;
 }
 
 .button-main .fa-solid.fa-circle-dot{
@@ -158,25 +163,30 @@ padding-top: 20px;
 /* ----- COLONNE ----- */
 .container-col .col-left{
     margin-right: 90px;
-    height: 1000px;
+    height: 1200px;
     width: 340px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .container-col .col-central{
     margin-right: 90px;
-    height: 1000px;
+    height: 1200px;
     width: 340px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .container-col .col-right{
-    height: 1000px;
+    height: 1200px;
     width: 340px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* ----- CONTENUTO COLONNE ----- */
+.col-down{
+    height: 250px ;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
+}
+/* ----- CONTENUTO COLONNE CENTRALI----- */
 .interno-colonna{
     margin: 30px 30px 30px 30px;
 }
@@ -194,6 +204,12 @@ padding-top: 20px;
     height:55px;
     width: 340px;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.col-name:hover{
+    background-color: #0061FF;
+    color: white;
+    border: 5px solid blue;
 }
 
 .fa-regular.fa-user{
@@ -205,7 +221,7 @@ padding-top: 20px;
 }
 
 .prezzo{
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .month-col{
@@ -251,7 +267,75 @@ padding-top: 20px;
 
 .link-col{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .link-col a{
     color: #0061FF;
+    font-weight: bold;
+}
+.link-col a:hover{
+    color: black;
+}
+
+hr{
+    width: 55px;
+    color: rgba(0,0,0,0.2);
+}
+
+ul li{
+    padding-bottom: 30px ;
+    list-style: none;
+}
+
+ul li:first-child{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fa-sharp.fa-solid.fa-check{
+    color: #0061FF;
+    padding-right: 3px;
+}
+/* ----- COLONNA INFERIORE ----- */
+.name-col-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:55px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.name-col-down:hover{
+    background-color: #0061FF;
+    color: white;
+    border: 5px solid blue;
+}
+
+.interno-flex-coldown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 0;
+}
+
+.interno-flex-coldown a{
+    background-color: #0061FF;
+    padding: 10px 75px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.interno-flex-coldown a:hover{
+    background-color: blue;
+}
+
+.contatta{
+    margin: 5px 30px 0;
+    font-weight: bold;
+}
+
+.support-coldown{
+    margin: 30px 30px 0;
 }
