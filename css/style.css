@@ -404,6 +404,7 @@ ul li{
 
 .description-dropbox p{
     line-height: 24px;
+    font-weight: 500;
 }
 
 .description-dropbox a{
@@ -414,3 +415,128 @@ ul li{
     width: 100%;
     cursor: pointer;
 }
+/* ----- BLOCCO SCROLL CON IMG ----- */
+.title-bigbox h2{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.title-bigbox a{
+    color: #0061FF;
+    font-weight: bold;
+}
+
+.title-bigbox a:hover{
+    color: black;
+}
+
+.container-big-box{
+    height: 580px;
+    width: 100vw;
+    margin-bottom: 300px;
+    margin-top: 45px;
+    display: flex;
+}
+/* ----- BOX LATERALI ----- */
+.big-box-lateral{
+    width: 30%;
+    height: 100%;
+    margin-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.big-box-lateral img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    filter: invert(100%) sepia(0%) saturate(0%) 
+    hue-rotate(69deg) brightness(103%) contrast(102%);
+}
+  
+.cont-img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #A2D39B;
+}
+
+.cont-img1:active{
+    border: 15px solid #D0E9CD;
+}
+  
+.cont-img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #61082B;
+    fill: white;
+}
+
+.cont-img2:active{
+    border: 15px solid #6d3e51;
+}
+
+.cont-img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #0093CE;
+}
+
+.cont-img3:active{
+    border: 15px solid #73a5f5;
+}
+
+.cont-img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #FF1C1C;
+}
+
+.cont-img4:active{
+    border: 15px solid #f06e6e;
+}
+/* ----- BOX CENTRALE ----- */
+.central-big-box{
+    width: 40%;
+    height: 100%;
+    background-color: #F5F5F5;
+    padding: 70px;
+    overflow: auto;
+}
+
+.info-central-box{
+    height: 100px;
+}
+
+.info-central-box img{
+    width: 20%;
+    padding-bottom: 30px;
+}
+
+.info-central-box hr{
+    background-color: #dfdfdf;
+}
+
+.info-central-box p{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.info-central-box span{
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+/* ----- CONTAINER SOTTO BIG-BOX ----- */
