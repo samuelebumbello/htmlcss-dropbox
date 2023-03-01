@@ -433,7 +433,6 @@ ul li{
 .container-big-box{
     height: 580px;
     width: 100vw;
-    margin-bottom: 300px;
     margin-top: 45px;
     display: flex;
 }
@@ -441,9 +440,9 @@ ul li{
 .big-box-lateral{
     width: 30%;
     height: 100%;
-    margin-bottom: 300px;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
   
 .big-box-lateral img{
@@ -539,4 +538,160 @@ ul li{
     padding-bottom: 50px;
     font-weight: 500;
 }
+/* ----- BIG BOX LATERALE DESTRO ----- */
+.cont-img5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #D5001F;
+}
+.cont-img5:active{
+    border: 15px solid #c74a5d;
+}
+
+.cont-img6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #B4D0E7;
+}
+.cont-img6:active{
+    border: 15px solid #c4d5e2;
+}
+
+.cont-img7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #0D2481;
+}
+.cont-img7:active{
+    border: 15px solid #364583;
+}
+
+.cont-img8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: #FFD830;
+}
+.cont-img8:active{
+    border: 15px solid #fce893;
+}
+
 /* ----- CONTAINER SOTTO BIG-BOX ----- */
+.container-down{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: #B4D0E7;
+    margin-bottom: 200px;
+}
+
+.interno-down{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropbox-business{
+    width: 50%;
+    color: #61082B;
+}
+
+.button-drop-business{
+    background-color:white;
+    padding: 10px 65px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button-drop-business:hover{
+    background-color: #0061FF;
+    color: white;
+}
+/* ----- CONTAINER FAQ ----- */
+.container-faq{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+.faq h2{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.request{
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fa-solid.fa-chevron-down{
+    margin-left: 95%;
+}
+/* ----- CONTAINER FOOTER ----- */
+footer{
+    background-color: black;
+}
+
+.box-footer{ 
+    display: flex;
+}
+
+.box-footer ul{
+    margin-left: 160px;
+}
+
+.box-footer ul li{
+    color: white;
+    line-height:2px;
+}
+.box-footer ul li:first-child{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px
+}
+
+.menu-footer{
+    margin-top: 100px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: white;
+}
+.menu-footer a:hover{
+    text-decoration: underline;
+}
+
+.linea-footer{
+    margin-left: 160px;
+    margin-top: 70px;
+    padding: 2rem 0;
+}
+.linea-footer hr{
+    width: 130px;
+}
+
+.language-footer{
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 160px;
+    color: gray;
+}
+.fa-solid.fa-caret-up{
+    font-size: 11px;
+    padding-left: 2px;
+}
